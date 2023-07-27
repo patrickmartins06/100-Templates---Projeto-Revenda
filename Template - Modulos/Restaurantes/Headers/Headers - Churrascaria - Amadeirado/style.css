@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/typo-slab-serif');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-image:url(https://media.discordapp.net/attachments/1111505351259476070/1113167975273484328/Sem_titulo.jpeg?width=1040&height=593);
+    background-size: cover;
+    background-position: center;
+   
+}
+#top-header {
+ 
+  background-color: rgba(0, 0, 0, 0.6);
+    
+
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+    gap: 10vw;
+    align-items: center; /* Adjusted to align vertically centered */
+
+    padding: 5px;
+    font-size: 1.5rem;
+    margin: auto;
+}
+#top-header {
+color: #fff;
+}
+
+
+
+#logo {
+    font-family: 'Inter', sans-serif;
+                                                
+    font-weight: 600;
+ 
+
+                                                
+}
+
+#bot-header {
+padding-top: 2px;
+padding-bottom: 2px;
+
+}
+
+#bot-header div{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    align-items: center; /* Adjusted to align vertically centered */
+    gap: 60px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: auto;
+}
+
+#bot-header a {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase; /* Adjusted to the appropriate font-weight value */
+}
+
+#bot-header a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+header img {
+    max-width: 80px;
+   
+}
+
+#bot-header a:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+
+#logo{
+    font-size: 1.5rem;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/typo-slab-serif');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    /*background-image:url(img/bg.jpg);*/
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+   
+}
+#top-header {
+ 
+  background-color: rgba(0, 0, 0, 0.4);
+    
+
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+    gap: 10vw;
+    align-items: center; /* Adjusted to align vertically centered */
+    border-bottom: 2px solid;
+    padding: 10px;
+    border-color:  #a80202;
+    ;
+    margin: auto;
+}
+#top-header {
+color: #fff;
+}
+
+#top-header{
+    font-size: 1.5rem;
+}
+
+#logo {
+    font-family: 'TypoSlabserif-Light', sans-serif;
+                                                
+    font-weight: 600;
+ 
+
+                                                
+}
+
+#bot-header {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    align-items: center; /* Adjusted to align vertically centered */
+    gap: 60px;
+    background: rgb(156, 3, 3);
+   
+   
+    margin: auto;
+}
+
+#bot-header a {
+    font-size: 0.8rem;
+    padding: 5px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase; /* Adjusted to the appropriate font-weight value */
+}
+
+#bot-header a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+header img {
+    max-width: 80px;
+   
+}
+
+
+#bot-header a:hover {
+transform: scale(1.1);
+transition: 0.8s;
+}
